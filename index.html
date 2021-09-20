@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyD6p_odeSonebyc8mGEFP_gTN75VfMtM_s",
+    authDomain: "my-helicopter-game.firebaseapp.com",
+    databaseURL: "https://my-helicopter-game-default-rtdb.firebaseio.com",
+    projectId: "my-helicopter-game",
+    storageBucket: "my-helicopter-game.appspot.com",
+    messagingSenderId: "961229358616",
+    appId: "1:961229358616:web:5020c5387b9601c991a56d"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+      <script src="JS/Form.js"></script>
+      <script src="JS/Game.js"></script>
+      <script src="JS/Player.js"></script>
+      <script src ="JS/GameLibrary.js"></script>
+      <script src="sketch.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  </body>
+</html>
